@@ -1,1 +1,1 @@
-This is readme only
+record git and github methods 
