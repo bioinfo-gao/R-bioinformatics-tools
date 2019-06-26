@@ -1,0 +1,18 @@
+push an existing repository from the command line
+git remote add origin https://github.com/bioinfo-gao/R-bioinformatics-tools.git  ##### FOLLOW this , do NOT use git//github.... 
+git push -u origin master
+
+######################  ERROR
+git remote add origin https://github.com/bioinfo-gao/R-bioinformatics-tools.git
+fatal: remote origin already exists.
+
+zxg161@Ubuntu:19:04:$ git remote add origin master
+fatal: remote origin already exists.
+
+# FIX the problem by remote the remote # https://help.github.com/en/articles/removing-a-remote
+zxg161@Ubuntu:19:07:$ git remote rm origin
+
+(base) [/media/code_12T/R-bioinformatics-tools]
+zxg161@Ubuntu:19:07:$ git remote add origin https://github.com/bioinfo-gao/R-bioinformatics-tools.git
+(base) [/media/code_12T/R-bioinformatics-tools]
+zxg161@Ubuntu:19:07:$ git push -u origin master
