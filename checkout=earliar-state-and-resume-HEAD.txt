@@ -1,0 +1,3 @@
+git checkout 035bb701    # checkout to an ealiar state
+git checkout -b 035bb701    # -b parameter which creates a local branch from the remote
+git checkout master      # resume to the HEAD state 
