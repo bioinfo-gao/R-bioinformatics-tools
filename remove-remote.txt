@@ -10,9 +10,8 @@ zxg161@Ubuntu:19:04:$ git remote add origin master
 fatal: remote origin already exists.
 
 # FIX the problem by remote the remote # https://help.github.com/en/articles/removing-a-remote
-zxg161@Ubuntu:19:07:$ git remote rm origin
+zxg161@Ubuntu:19:07:$ git remote rm origin                                                                     # remove origin 
 
-(base) [/media/code_12T/R-bioinformatics-tools]
-zxg161@Ubuntu:19:07:$ git remote add origin https://github.com/bioinfo-gao/R-bioinformatics-tools.git
-(base) [/media/code_12T/R-bioinformatics-tools]
-zxg161@Ubuntu:19:07:$ git push -u origin master
+zxg161@Ubuntu:19:07:$ git remote add origin https://github.com/bioinfo-gao/R-bioinformatics-tools.git          # add remote origin again with https    
+
+zxg161@Ubuntu:19:07:$ git push -u origin master                                                                # push to origin master and sucessful        
